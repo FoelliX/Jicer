@@ -1,4 +1,4 @@
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.foellix/AQL-System/badge.svg)](https://maven-badges.herokuapp.com/maven-central/de.foellix/AQL-System) ![Java 17](https://img.shields.io/badge/java-17-brightgreen.svg) ![Maven 3.8.1](https://img.shields.io/badge/maven-3.8.1-brightgreen.svg)
+![Java 17](https://img.shields.io/badge/java-17-brightgreen.svg) ![Maven 3.8.1](https://img.shields.io/badge/maven-3.8.1-brightgreen.svg)
 ---
 <p align="center">
 	<img src="https://FoelliX.github.io/Jicer/logo.png" width="300px"/>
