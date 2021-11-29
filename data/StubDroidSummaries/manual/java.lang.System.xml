@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<summary fileFormatVersion="101">
+	<!-- WARNING: incomplete -->
+	<methods>
+		<!-- public static native void arraycopy(Object obj, int i, Object obj2, int i2, int i3); -->
+		<method id="void arraycopy(java.lang.Object,int,java.lang.Object,int,int)">
+			<flows>
+				<flow isAlias="false" typeChecking="false">
+					<from sourceSinkType="Parameter" ParameterIndex="0" />
+					<to sourceSinkType="Parameter" ParameterIndex="2" />
+				</flow>
+			</flows>
+		</method>
+	</methods>
+</summary>

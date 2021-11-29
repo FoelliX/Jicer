@@ -1,0 +1,168 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>de.foellix</groupId>
+	<artifactId>Jicer</artifactId>
+	<version>2.0.0</version>
+	<packaging>jar</packaging>
+
+	<name>Jicer</name>
+	<description>Jimple Slicer</description>
+	<url>https://FoelliX.github.io/Jicer</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<timestamp>${maven.build.timestamp}</timestamp>
+		<maven.build.timestamp.format>ddMMyyyyHHmmssS</maven.build.timestamp.format>
+	</properties>
+
+	<build>
+		<defaultGoal>clean install</defaultGoal>
+		<directory>target</directory>
+
+		<outputDirectory>target/classes</outputDirectory>
+		<sourceDirectory>src</sourceDirectory>
+		<testSourceDirectory>testsrc</testSourceDirectory>
+
+		<resources>
+			<resource>
+				<directory>${project.basedir}/data</directory>
+				<includes>
+					<include>**/*</include>
+				</includes>
+				<excludes>
+					<exclude>storage/**/*</exclude>
+					<exclude>temp/**/*</exclude>
+					<exclude>*_bak*</exclude>
+				</excludes>
+				<targetPath>${project.basedir}/target/build/data</targetPath>
+			</resource>
+		</resources>
+
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<source>17</source>
+					<target>17</target>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>3.3.0</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+						<configuration>
+							<archive>
+								<manifest>
+									<mainClass>
+										de.foellix.aql.jicer.Main
+									</mainClass>
+								</manifest>
+							</archive>
+							<descriptors>
+								<descriptor>mvn/AQL-Assembly.xml</descriptor>
+							</descriptors>
+							<outputDirectory>${project.basedir}/target/build</outputDirectory>
+							<finalName>${project.name}-${project.version}</finalName>
+							<appendAssemblyId>false</appendAssemblyId>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.22.2</version>
+				<configuration>
+					<excludedGroups>systemIsSetup, longLasting</excludedGroups>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<version>3.0.0</version>
+				<executions>
+					<execution>
+						<id>create-empty-directories</id>
+						<phase>package</phase>
+						<goals>
+							<goal>run</goal>
+						</goals>
+						<configuration>
+							<target>
+								<mkdir dir="${basedir}/target/build/data/temp" />
+							</target>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+	<repositories>
+		<!-- https://sable.github.io/soot/ -->
+		<repository>
+			<id>soot-release</id>
+			<name>soot releases</name>
+			<url>https://soot-build.cs.uni-paderborn.de/nexus/repository/soot-release/</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<!-- https://soot-build.cs.uni-paderborn.de/nexus/service/rest/repository/browse/soot-release/de/tud/sse/soot-infoflow-android/2.7.1/ -->
+		<dependency>
+			<groupId>de.tud.sse</groupId>
+			<artifactId>soot-infoflow-android</artifactId>
+			<version>2.7.1</version>
+		</dependency>
+
+		<!-- https://soot-build.cs.uni-paderborn.de/nexus/service/rest/repository/browse/soot-release/de/tud/sse/soot-infoflow-summaries/2.7.1/ -->
+		<dependency>
+			<groupId>de.tud.sse</groupId>
+			<artifactId>soot-infoflow-summaries</artifactId>
+			<version>2.7.1</version>
+		</dependency>
+
+		<!-- AQL Project -->
+		<dependency>
+			<groupId>de.foellix</groupId>
+			<artifactId>AQL-System</artifactId>
+			<version>2.0.0</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<version>5.7.0</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<developers>
+		<developer>
+			<name>Felix Pauck</name>
+			<email>my@FoelliX.de</email>
+			<organization>FoelliX.de</organization>
+			<organizationUrl>https://FoelliX.de</organizationUrl>
+		</developer>
+	</developers>
+
+	<licenses>
+		<license>
+			<name>GNU General Public License v3.0</name>
+			<url>https://www.gnu.org/licenses/gpl-3.0.txt</url>
+		</license>
+	</licenses>
+</project>

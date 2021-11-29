@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<answer>
+    <intentsources>
+        <intentsource>
+            <target>
+                <reference>
+                    <classname>com.savemebeta.SOSsm</classname>
+                    <app>
+                        <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                        <hashes>
+                            <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                            <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                            <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                        </hashes>
+                    </app>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r6 = virtualinvoke r3.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(r5)</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>r5</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.savemebeta.SOSsm: void onCreate(android.os.Bundle)&gt;</method>
+                <classname>com.savemebeta.SOSsm</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                    <hashes>
+                        <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                        <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                        <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <reference>
+                    <classname>com.savemebeta.SOSsm</classname>
+                    <app>
+                        <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                        <hashes>
+                            <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                            <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                            <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                        </hashes>
+                    </app>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r8 = virtualinvoke r2.&lt;android.os.Bundle: java.lang.String getString(java.lang.String)&gt;(r7)</statementfull>
+                    <statementgeneric>android.os.Bundle: java.lang.String getString(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>r7</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.savemebeta.SOSsm: void onCreate(android.os.Bundle)&gt;</method>
+                <classname>com.savemebeta.SOSsm</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                    <hashes>
+                        <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                        <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                        <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <reference>
+                    <classname>com.savemebeta.addcontact2</classname>
+                    <app>
+                        <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                        <hashes>
+                            <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                            <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                            <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                        </hashes>
+                    </app>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r8 = virtualinvoke r2.&lt;android.os.Bundle: java.lang.String getString(java.lang.String)&gt;(r7)</statementfull>
+                    <statementgeneric>android.os.Bundle: java.lang.String getString(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>r7</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.savemebeta.addcontact2: void onCreate(android.os.Bundle)&gt;</method>
+                <classname>com.savemebeta.addcontact2</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                    <hashes>
+                        <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                        <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                        <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <reference>
+                    <classname>com.savemebeta.addcontact2</classname>
+                    <app>
+                        <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                        <hashes>
+                            <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                            <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                            <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                        </hashes>
+                    </app>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r6 = virtualinvoke r3.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(r5)</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>r5</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.savemebeta.addcontact2: void onCreate(android.os.Bundle)&gt;</method>
+                <classname>com.savemebeta.addcontact2</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                    <hashes>
+                        <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                        <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                        <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <reference>
+                    <classname>com.savemebeta.Scan</classname>
+                    <app>
+                        <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                        <hashes>
+                            <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                            <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                            <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                        </hashes>
+                    </app>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r7 = virtualinvoke r3.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(r6)</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>r6</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.savemebeta.Scan: void onCreate(android.os.Bundle)&gt;</method>
+                <classname>com.savemebeta.Scan</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                    <hashes>
+                        <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                        <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                        <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <reference>
+                    <classname>com.savemebeta.Scan</classname>
+                    <app>
+                        <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                        <hashes>
+                            <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                            <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                            <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                        </hashes>
+                    </app>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r9 = virtualinvoke r2.&lt;android.os.Bundle: java.lang.String getString(java.lang.String)&gt;(r8)</statementfull>
+                    <statementgeneric>android.os.Bundle: java.lang.String getString(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>r8</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.savemebeta.Scan: void onCreate(android.os.Bundle)&gt;</method>
+                <classname>com.savemebeta.Scan</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                    <hashes>
+                        <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                        <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                        <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+    </intentsources>
+    <intentsinks>
+        <intentsink>
+            <target>
+                <reference>
+                    <classname>com.savemebeta.TaskBarView</classname>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r1.&lt;android.content.Context: void startActivity(android.content.Intent)&gt;(r3)</statementfull>
+                    <statementgeneric>android.content.Context: void startActivity(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r3</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.savemebeta.BootStartUpReciever: void onReceive(android.content.Context,android.content.Intent)&gt;</method>
+                <classname>com.savemebeta.BootStartUpReciever</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                    <hashes>
+                        <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                        <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                        <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+        <intentsink>
+            <target>
+                <reference>
+                    <classname>com.savemebeta.GTSTSR</classname>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r1.&lt;android.content.Context: android.content.ComponentName startService(android.content.Intent)&gt;(r4)</statementfull>
+                    <statementgeneric>android.content.Context: android.content.ComponentName startService(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r4</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.savemebeta.BootStartUpReciever: void onReceive(android.content.Context,android.content.Intent)&gt;</method>
+                <classname>com.savemebeta.BootStartUpReciever</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                    <hashes>
+                        <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                        <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                        <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+        <intentsink>
+            <target>
+                <action>android.intent.action.CALL</action>
+                <data>
+                    <scheme>(.*)</scheme>
+                    <host>*)</host>
+                </data>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;com.savemebeta.RC: void startActivity(android.content.Intent)&gt;(r1)</statementfull>
+                    <statementgeneric>com.savemebeta.RC: void startActivity(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.savemebeta.RC: void callnow()&gt;</method>
+                <classname>com.savemebeta.RC</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                    <hashes>
+                        <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                        <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                        <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+        <intentsink>
+            <target>
+                <reference>
+                    <classname>com.savemebeta.GTSTSR</classname>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;com.savemebeta.restart: android.content.ComponentName startService(android.content.Intent)&gt;(r4)</statementfull>
+                    <statementgeneric>com.savemebeta.restart: android.content.ComponentName startService(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r4</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.savemebeta.restart: void onCreate()&gt;</method>
+                <classname>com.savemebeta.restart</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                    <hashes>
+                        <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                        <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                        <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+        <intentsink>
+            <target>
+                <reference>
+                    <classname>com.savemebeta.Scan</classname>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r113.&lt;com.savemebeta.Analyse: void startActivity(android.content.Intent)&gt;(r7)</statementfull>
+                    <statementgeneric>com.savemebeta.Analyse: void startActivity(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r7</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.savemebeta.Analyse$AddFriend: java.lang.Object doInBackground(java.lang.String[])&gt;</method>
+                <classname>com.savemebeta.Analyse$AddFriend</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                    <hashes>
+                        <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                        <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                        <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+        <intentsink>
+            <target>
+                <reference>
+                    <classname>com.savemebeta.thanks</classname>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;com.savemebeta.SCHKMS: void startActivity(android.content.Intent)&gt;(r4)</statementfull>
+                    <statementgeneric>com.savemebeta.SCHKMS: void startActivity(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r4</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.savemebeta.SCHKMS: void fetchContacts()&gt;</method>
+                <classname>com.savemebeta.SCHKMS</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                    <hashes>
+                        <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                        <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                        <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+        <intentsink>
+            <target>
+                <reference>
+                    <classname>com.savemebeta.restart</classname>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;com.savemebeta.SCHKMS: android.content.ComponentName startService(android.content.Intent)&gt;(r17)</statementfull>
+                    <statementgeneric>com.savemebeta.SCHKMS: android.content.ComponentName startService(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r17</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.savemebeta.SCHKMS: void fetchContacts()&gt;</method>
+                <classname>com.savemebeta.SCHKMS</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                    <hashes>
+                        <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                        <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                        <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+        <intentsink>
+            <target>
+                <reference>
+                    <classname>com.savemebeta.Scan</classname>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r38.&lt;com.savemebeta.thanks2: void startActivity(android.content.Intent)&gt;(r6)</statementfull>
+                    <statementgeneric>com.savemebeta.thanks2: void startActivity(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r6</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.savemebeta.thanks2$1: void onClick(android.view.View)&gt;</method>
+                <classname>com.savemebeta.thanks2$1</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                    <hashes>
+                        <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                        <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                        <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+        <intentsink>
+            <target>
+                <reference>
+                    <classname>com.savemebeta.addcontact2</classname>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r15.&lt;com.savemebeta.Scan: void startActivity(android.content.Intent)&gt;(r3)</statementfull>
+                    <statementgeneric>com.savemebeta.Scan: void startActivity(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r3</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.savemebeta.Scan$3: void onClick(android.view.View)&gt;</method>
+                <classname>com.savemebeta.Scan$3</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                    <hashes>
+                        <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                        <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                        <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+        <intentsink>
+            <target>
+                <reference>
+                    <classname>com.savemebeta.SOSsm</classname>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r15.&lt;com.savemebeta.Scan: void startActivity(android.content.Intent)&gt;(r3)</statementfull>
+                    <statementgeneric>com.savemebeta.Scan: void startActivity(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r3</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.savemebeta.Scan$6: void onClick(android.view.View)&gt;</method>
+                <classname>com.savemebeta.Scan$6</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                    <hashes>
+                        <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                        <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                        <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+        <intentsink>
+            <target>
+                <reference>
+                    <classname>com.savemebeta.restart</classname>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;com.savemebeta.addcontact: android.content.ComponentName startService(android.content.Intent)&gt;(r22)</statementfull>
+                    <statementgeneric>com.savemebeta.addcontact: android.content.ComponentName startService(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r22</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.savemebeta.addcontact: void addContact()&gt;</method>
+                <classname>com.savemebeta.addcontact</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                    <hashes>
+                        <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                        <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                        <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+        <intentsink>
+            <target>
+                <reference>
+                    <classname>com.savemebeta.thanks2</classname>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r5.&lt;com.savemebeta.thanks: void startActivity(android.content.Intent)&gt;(r2)</statementfull>
+                    <statementgeneric>com.savemebeta.thanks: void startActivity(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.savemebeta.thanks$1: void onClick(android.view.View)&gt;</method>
+                <classname>com.savemebeta.thanks$1</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                    <hashes>
+                        <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                        <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                        <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+        <intentsink>
+            <target>
+                <reference>
+                    <classname>com.savemebeta.thanks</classname>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r22.&lt;com.savemebeta.SplashScreen: void startActivity(android.content.Intent)&gt;(r1)</statementfull>
+                    <statementgeneric>com.savemebeta.SplashScreen: void startActivity(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.savemebeta.SplashScreen$1: void run()&gt;</method>
+                <classname>com.savemebeta.SplashScreen$1</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                    <hashes>
+                        <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                        <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                        <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+        <intentsink>
+            <target>
+                <reference>
+                    <classname>com.savemebeta.CHECKUPD</classname>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r19.&lt;com.savemebeta.SplashScreen: android.content.ComponentName startService(android.content.Intent)&gt;(r16)</statementfull>
+                    <statementgeneric>com.savemebeta.SplashScreen: android.content.ComponentName startService(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r16</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.savemebeta.SplashScreen$1: void run()&gt;</method>
+                <classname>com.savemebeta.SplashScreen$1</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                    <hashes>
+                        <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                        <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                        <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+        <intentsink>
+            <target>
+                <action>com.android.launcher.action.INSTALL_SHORTCUT</action>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r18.&lt;android.content.Context: void sendBroadcast(android.content.Intent)&gt;(r1)</statementfull>
+                    <statementgeneric>android.content.Context: void sendBroadcast(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.savemebeta.SplashScreen: void addShortcut()&gt;</method>
+                <classname>com.savemebeta.SplashScreen</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                    <hashes>
+                        <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                        <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                        <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+        <intentsink>
+            <target>
+                <reference>
+                    <classname>com.savemebeta.RC</classname>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;com.savemebeta.GTSTSR: android.content.ComponentName startService(android.content.Intent)&gt;(r29)</statementfull>
+                    <statementgeneric>com.savemebeta.GTSTSR: android.content.ComponentName startService(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r29</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.savemebeta.GTSTSR: void CHECK()&gt;</method>
+                <classname>com.savemebeta.GTSTSR</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                    <hashes>
+                        <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                        <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                        <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+        <intentsink>
+            <target>
+                <reference>
+                    <classname>com.savemebeta.addcontact</classname>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;com.savemebeta.GTSTSR: void startActivity(android.content.Intent)&gt;(r1)</statementfull>
+                    <statementgeneric>com.savemebeta.GTSTSR: void startActivity(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.savemebeta.GTSTSR: void CHECK()&gt;</method>
+                <classname>com.savemebeta.GTSTSR</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10040/save_me.apk</file>
+                    <hashes>
+                        <hash type="MD5">78835947cca21ba42110a4f206a7a486</hash>
+                        <hash type="SHA-1">b64b84a69a4fe82009e97ac85fa38d4e073f330f</hash>
+                        <hash type="SHA-256">919a015245f045a8da7652cefac26e71808b22635c6f3217fd1f0debd61d4330</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+    </intentsinks>
+</answer>

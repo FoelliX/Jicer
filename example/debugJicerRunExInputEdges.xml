@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<answer>
+    <flows>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>virtualinvoke r0.&lt;de.foellix.aql.slicer.slicertestapp.MainActivity: void startActivity(android.content.Intent)&gt;(r1)</statementfull>
+                    <statementgeneric>de.foellix.aql.slicer.slicertestapp.MainActivity: void startActivity(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.slicer.slicertestapp.MainActivity: void forward(android.content.Intent)&gt;</method>
+                <classname>de.foellix.aql.slicer.slicertestapp.MainActivity</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10012/00000006</file>
+                    <hashes>
+                        <hash type="MD5">d5beca906b5f261ba6a614aa5177ac68</hash>
+                        <hash type="SHA-1">781e264204b3801ef357b8af2eff02fce95fcb05</hash>
+                        <hash type="SHA-256">64d4fd9a45f1872ee14b2a2fdd9901b5fda11eca3b4672bd645ad9aff019f830</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>r6 = virtualinvoke r4.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(r5)</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>r5</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;de.foellix.aql.slicer.slicertestapp.Target: void onCreate(android.os.Bundle)&gt;</method>
+                <classname>de.foellix.aql.slicer.slicertestapp.Target</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10011/debugJicerRunEx.apk</file>
+                    <hashes>
+                        <hash type="MD5">c363e35dabfcb178e2805cbf823b8163</hash>
+                        <hash type="SHA-1">49cc6d24124a0f1bff6668836f4683dad07775f7</hash>
+                        <hash type="SHA-256">eb823cac954285bb0803119aca73e351826612f83d63b235c0b47ce07b44e23a</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <attributes>
+                <attribute>
+                    <name>complete</name>
+                    <value>true</value>
+                </attribute>
+            </attributes>
+        </flow>
+    </flows>
+</answer>

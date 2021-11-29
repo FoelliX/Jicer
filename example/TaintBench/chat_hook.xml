@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<answer>
+    <intentsources>
+        <intentsource>
+            <target>
+                <reference>
+                    <classname>com.example.chathook.HookReceiver</classname>
+                    <app>
+                        <file>/media/sf_webserviceJicer/aql/uploads/10037/chat_hook.apk</file>
+                        <hashes>
+                            <hash type="MD5">88870ad3c7bd42cfe1d728b4a4ccc104</hash>
+                            <hash type="SHA-1">986c37ea2374c2e7d62d2006e375562ce6940133</hash>
+                            <hash type="SHA-256">34ef34e8077bb7f5bd115f3c67682850de6efe1361ecb476ddb41929afbcad69</hash>
+                        </hashes>
+                    </app>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>z0 = virtualinvoke r2.&lt;android.content.Intent: boolean getBooleanExtra(java.lang.String,boolean)&gt;(r11, z2)</statementfull>
+                    <statementgeneric>android.content.Intent: boolean getBooleanExtra(java.lang.String,boolean)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>r11</value>
+                        </parameter>
+                        <parameter>
+                            <type>boolean</type>
+                            <value>z2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.example.chathook.HookReceiver: void onReceive(android.content.Context,android.content.Intent)&gt;</method>
+                <classname>com.example.chathook.HookReceiver</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10037/chat_hook.apk</file>
+                    <hashes>
+                        <hash type="MD5">88870ad3c7bd42cfe1d728b4a4ccc104</hash>
+                        <hash type="SHA-1">986c37ea2374c2e7d62d2006e375562ce6940133</hash>
+                        <hash type="SHA-256">34ef34e8077bb7f5bd115f3c67682850de6efe1361ecb476ddb41929afbcad69</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <action>android.intent.action.USER_PRESENT</action>
+                <action>android.intent.action.BOOT_COMPLETED</action>
+                <action>learn.yincc.CHAT_UPDATE</action>
+                <action>android.net.conn.CONNECTIVITY_CHANGE</action>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>z0 = virtualinvoke r2.&lt;android.content.Intent: boolean getBooleanExtra(java.lang.String,boolean)&gt;(r11, z2)</statementfull>
+                    <statementgeneric>android.content.Intent: boolean getBooleanExtra(java.lang.String,boolean)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>r11</value>
+                        </parameter>
+                        <parameter>
+                            <type>boolean</type>
+                            <value>z2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.example.chathook.HookReceiver: void onReceive(android.content.Context,android.content.Intent)&gt;</method>
+                <classname>com.example.chathook.HookReceiver</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10037/chat_hook.apk</file>
+                    <hashes>
+                        <hash type="MD5">88870ad3c7bd42cfe1d728b4a4ccc104</hash>
+                        <hash type="SHA-1">986c37ea2374c2e7d62d2006e375562ce6940133</hash>
+                        <hash type="SHA-256">34ef34e8077bb7f5bd115f3c67682850de6efe1361ecb476ddb41929afbcad69</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <reference>
+                    <classname>com.example.chathook.HookReceiver</classname>
+                    <app>
+                        <file>/media/sf_webserviceJicer/aql/uploads/10037/chat_hook.apk</file>
+                        <hashes>
+                            <hash type="MD5">88870ad3c7bd42cfe1d728b4a4ccc104</hash>
+                            <hash type="SHA-1">986c37ea2374c2e7d62d2006e375562ce6940133</hash>
+                            <hash type="SHA-256">34ef34e8077bb7f5bd115f3c67682850de6efe1361ecb476ddb41929afbcad69</hash>
+                        </hashes>
+                    </app>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r4 = virtualinvoke r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(r13)</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>r13</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.example.chathook.HookReceiver: void onReceive(android.content.Context,android.content.Intent)&gt;</method>
+                <classname>com.example.chathook.HookReceiver</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10037/chat_hook.apk</file>
+                    <hashes>
+                        <hash type="MD5">88870ad3c7bd42cfe1d728b4a4ccc104</hash>
+                        <hash type="SHA-1">986c37ea2374c2e7d62d2006e375562ce6940133</hash>
+                        <hash type="SHA-256">34ef34e8077bb7f5bd115f3c67682850de6efe1361ecb476ddb41929afbcad69</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+        <intentsource>
+            <target>
+                <action>android.intent.action.USER_PRESENT</action>
+                <action>android.intent.action.BOOT_COMPLETED</action>
+                <action>learn.yincc.CHAT_UPDATE</action>
+                <action>android.net.conn.CONNECTIVITY_CHANGE</action>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>r4 = virtualinvoke r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;(r13)</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>r13</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.example.chathook.HookReceiver: void onReceive(android.content.Context,android.content.Intent)&gt;</method>
+                <classname>com.example.chathook.HookReceiver</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10037/chat_hook.apk</file>
+                    <hashes>
+                        <hash type="MD5">88870ad3c7bd42cfe1d728b4a4ccc104</hash>
+                        <hash type="SHA-1">986c37ea2374c2e7d62d2006e375562ce6940133</hash>
+                        <hash type="SHA-256">34ef34e8077bb7f5bd115f3c67682850de6efe1361ecb476ddb41929afbcad69</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsource>
+    </intentsources>
+    <intentsinks>
+        <intentsink>
+            <target>
+                <action>com.qyin.activityswitch2</action>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r31.&lt;android.content.Context: void sendBroadcast(android.content.Intent)&gt;(r2)</statementfull>
+                    <statementgeneric>android.content.Context: void sendBroadcast(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.example.chathook.ProcessMonitor$MyThread: void sendBroadcast(java.lang.Object[])&gt;</method>
+                <classname>com.example.chathook.ProcessMonitor$MyThread</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10037/chat_hook.apk</file>
+                    <hashes>
+                        <hash type="MD5">88870ad3c7bd42cfe1d728b4a4ccc104</hash>
+                        <hash type="SHA-1">986c37ea2374c2e7d62d2006e375562ce6940133</hash>
+                        <hash type="SHA-256">34ef34e8077bb7f5bd115f3c67682850de6efe1361ecb476ddb41929afbcad69</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+        <intentsink>
+            <target>
+                <action>com.lenovo.safecenter.activityswitch</action>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r31.&lt;android.content.Context: void sendBroadcast(android.content.Intent)&gt;(r2)</statementfull>
+                    <statementgeneric>android.content.Context: void sendBroadcast(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r2</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.example.chathook.ProcessMonitor$MyThread: void sendBroadcast(java.lang.Object[])&gt;</method>
+                <classname>com.example.chathook.ProcessMonitor$MyThread</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10037/chat_hook.apk</file>
+                    <hashes>
+                        <hash type="MD5">88870ad3c7bd42cfe1d728b4a4ccc104</hash>
+                        <hash type="SHA-1">986c37ea2374c2e7d62d2006e375562ce6940133</hash>
+                        <hash type="SHA-256">34ef34e8077bb7f5bd115f3c67682850de6efe1361ecb476ddb41929afbcad69</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+        <intentsink>
+            <target>
+                <reference>
+                    <classname>com.example.chathook.ProcessMonitor</classname>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r1.&lt;android.content.Context: android.content.ComponentName startService(android.content.Intent)&gt;(r63)</statementfull>
+                    <statementgeneric>android.content.Context: android.content.ComponentName startService(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r63</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.example.chathook.HookReceiver: void onReceive(android.content.Context,android.content.Intent)&gt;</method>
+                <classname>com.example.chathook.HookReceiver</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10037/chat_hook.apk</file>
+                    <hashes>
+                        <hash type="MD5">88870ad3c7bd42cfe1d728b4a4ccc104</hash>
+                        <hash type="SHA-1">986c37ea2374c2e7d62d2006e375562ce6940133</hash>
+                        <hash type="SHA-256">34ef34e8077bb7f5bd115f3c67682850de6efe1361ecb476ddb41929afbcad69</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+        <intentsink>
+            <target>
+                <reference>
+                    <classname>com.example.chathook.ProcessMonitor</classname>
+                </reference>
+            </target>
+            <reference>
+                <statement>
+                    <statementfull>virtualinvoke r74.&lt;com.example.chathook.MainActivity: android.content.ComponentName startService(android.content.Intent)&gt;(r75)</statementfull>
+                    <statementgeneric>com.example.chathook.MainActivity: android.content.ComponentName startService(android.content.Intent)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>android.content.Intent</type>
+                            <value>r75</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.example.chathook.MainActivity$2: void onClick(android.view.View)&gt;</method>
+                <classname>com.example.chathook.MainActivity$2</classname>
+                <app>
+                    <file>/media/sf_webserviceJicer/aql/uploads/10037/chat_hook.apk</file>
+                    <hashes>
+                        <hash type="MD5">88870ad3c7bd42cfe1d728b4a4ccc104</hash>
+                        <hash type="SHA-1">986c37ea2374c2e7d62d2006e375562ce6940133</hash>
+                        <hash type="SHA-256">34ef34e8077bb7f5bd115f3c67682850de6efe1361ecb476ddb41929afbcad69</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </intentsink>
+    </intentsinks>
+</answer>
