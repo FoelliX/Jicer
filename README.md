@@ -65,7 +65,8 @@ In the following we present a list of features that make Jicer support multiple 
 - ... and much more
 
 ## Publications
-- To appear in the proceedings of [IEEE SCAM 2021](https://www.ieee-scam.org/2021)
+- Jicer: Simplifying Cooperative Android App Analysis Tasks (Felix Pauck, Heike Wehrheim)  
+[SCAM 2021](https://www.ieee-scam.org/2021) - [https://ieeexplore.ieee.org/document/9610738](https://ieeexplore.ieee.org/document/9610738)
 
 ### Presentation
 The slides and video as presented during SCAM 2021 are also available:
