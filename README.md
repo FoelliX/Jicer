@@ -16,8 +16,8 @@ The video below shows how to configure and use Jicer:
 
 **Material:**
 - Android platforms directory repository [[Link]](https://github.com/Sable/android-platforms)
-- Example app (debugJicerRunEx_new.apk) [[Download]](https://github.com/FoelliX/Jicer/blob/main/example/debugJicerRunEx_new.apk)
-- Input edges or ICC analysis result (debugJicerRunExInputEdges.xml - in [AQL](https://github.com/FoelliX/AQL-System/wiki/AQL) format) [[Download]](https://github.com/FoelliX/Jicer/blob/main/example/debugJicerRunExInputEdges.xml)
+- Example app `debugJicerRunEx_new.apk` [[Download]](https://github.com/FoelliX/Jicer/blob/main/example/debugJicerRunEx_new.apk)
+- Input edges or ICC analysis result `debugJicerRunExInputEdges.xml` (in [AQL](https://github.com/FoelliX/AQL-System/wiki/AQL) format) [[Download]](https://github.com/FoelliX/Jicer/blob/main/example/debugJicerRunExInputEdges.xml)
 
 ## GUI
 To open the GUI simply run: `java -jar Jicer-X.X.X.jar -gui`  
