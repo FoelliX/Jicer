@@ -10,9 +10,14 @@ It is especially designed for slicing Android apps.
 Since it takes APK files as input and also outputs slices as APK files, it can smoothly be integrated into cooperative analyses such as [CoDiDroid](https://github.com/FoelliX/CoDiDroid).
 The use of Jicer in a cooperative analysis is also explained and demonstrated in [tutorial video #03](https://github.com/FoelliX/AQL-System/wiki/Video_tutorials#user-content-video-03-reduce-false-positives-i-slicing) of the [AQL-System](https://github.com/FoelliX/AQL-System).
 
-## Introduction Video
+## Introduction/Tutorial Video
 The video below shows how to configure and use Jicer:
 [![Video](https://FoelliX.de/videos/tutorials/Jicer/splash.png)](https://FoelliX.de/videos/tutorials/Jicer/video_00.mp4)
+
+**Material:**
+- Android platforms directory repository [[Link]](https://github.com/Sable/android-platforms)
+- Example app (debugJicerRunEx_new.apk) [[Download]](https://github.com/FoelliX/Jicer/blob/main/example/debugJicerRunEx_new.apk)
+- Input edges or ICC analysis result (debugJicerRunExInputEdges.xml - in [AQL](https://github.com/FoelliX/AQL-System/wiki/AQL) format) [[Download]](https://github.com/FoelliX/Jicer/blob/main/example/debugJicerRunExInputEdges.xml)
 
 ## GUI
 To open the GUI simply run: `java -jar Jicer-X.X.X.jar -gui`  
